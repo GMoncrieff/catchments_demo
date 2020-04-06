@@ -1,0 +1,22 @@
+Type: Compendium
+Package: South Africa Streamflow
+Title: What the Package Does (One Line, Title Case)
+Version: 1.0
+Authors@R: 
+    person(given = "Glenn",
+           family = "Moncrieff",
+           role = c("aut", "cre"),
+           email = "glenn@saeon.ac.za",
+           comment = c(ORCID = "0000-0002-0066-4371"))
+Description: A re-analysis of the South African paired
+    catchment data
+License: MIT
+Depends: 
+    betareg,
+    broom,
+    dplyr,
+    ggplot2,
+    readr,
+    renv
+Encoding: UTF-8
+LazyData: true
